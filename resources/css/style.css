@@ -1,0 +1,21 @@
+header {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo span {
+  color: aquamarine;
+}
+nav span {
+  display: inline-block;
+}
