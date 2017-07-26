@@ -101,3 +101,19 @@ nav span a{
   font-size: 17px;
   color: black;
 }
+.newsbites h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.bitestory {
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
