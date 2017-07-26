@@ -44,6 +44,7 @@ nav span a{
   width: 100%;
   padding-top: 116px;
   border-color: red;
+  margin: 0 auto 78px auto;
 }
 .column{
   display: flex;
