@@ -6,16 +6,29 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  position: fixed;
+  z-index: 1;
   align-items: center;
 }
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding-left: 30px;
+}
+.logo img {
+  margin-right: 12px;
 }
 .logo span {
-  color: aquamarine;
+  color: mediumaquamarine;
+}
+nav{
+  padding-right: 40px;
 }
 nav span {
   display: inline-block;
+  padding: 20px 10px;
+}
+nav span a{
+  color: black;
 }
