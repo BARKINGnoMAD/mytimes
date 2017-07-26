@@ -1,3 +1,7 @@
+div {
+  border: 1px solid black;
+  margin: 10px;
+}
 header {
   height: 80px;
   width: 100%;
@@ -20,7 +24,7 @@ header {
   margin-right: 12px;
 }
 .logo span {
-  color: mediumaquamarine;
+  color: MediumAquamarine;
 }
 nav{
   padding-right: 40px;
@@ -31,4 +35,24 @@ nav span {
 }
 nav span a{
   color: black;
+}
+.main {
+  display: flex;
+  width: 100%;
+  padding-top: 116px;
+  border-color: red;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  border-color: green;
+}
+.largecol {
+  width: 630px;
+}
+.medcol {
+  width: 300px;
+}
+.smallcol {
+  width: 240px;
 }
